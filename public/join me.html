@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Join me.css" />
+    <title>Dr Orlow</title>
+</head>
+<body>
+       <header>
+        <h1>Dr Orlow</h1>
+        <img src="Octopus1.png" alt="Logo">
+       </header>
+       <section>
+        <h1>Make friends with DrOrlow ^-^</h1>
+        <form action="http://internal-App-LB-1715465674.us-east-1.elb.amazonaws.com:3000/submit" method="post">
+            <fieldset id="Fieldset0">
+                <div id="Fieldset1">
+            <fieldset id="fieldset1">
+               <legend>Identity</legend><br>
+               <label>Name: </label><input type="text" name="name" id="name" required placeholder="Name"><br><br>
+               <label>Surname: </label> <input type="text" name="surname" id="surname" required placeholder="Surname"><br><br>
+               <label>Your gender: </label>
+               <select name="gender">
+               <option value="Male">Male</option>
+               <option value="Female">Female</option>
+               </select>
+               <br>
+            </fieldset>
+        </div>
+            <div id="Fieldset2">
+            <fieldset id="fieldset2">
+                <legend>Sign up</legend><br>
+                <label>Identifier: </label><input type="password" id="id" name="id" required><br><br>
+               <label>New password: </label><input type="password" id="psw" name="psw" required><br><br>
+               <label>Confirmation: </label><input type="password" id="conf" name="conf" required>
+            </fieldset>
+        </div>
+        <div id="Fieldset3">
+            <fieldset id="fieldset3">
+                <legend>Personal details</legend><br>
+                <label>Email: </label><input type="email" name="email" id="email" required placeholder="DrOrlow@gmail.com"><br><br>
+                <label>Professional email: </label><input type="email" name="pemail" id="pemail" required placeholder="DrOrlow@gmail.com"><br><br>
+                <label>Birthday: </label><input type="date" name="birthday" id="birthday" required placeholder="05/01/2003"><br><br>
+                <label>Details:</label>
+                <textarea name="details" rows="5" cols="50"></textarea><br><br>
+                <label>Photo: </label><input type="file" name="file" id="file" accept="image/png, image/jpeg, image/gif" required><br>
+            </fieldset>
+        </div>
+        <div id="Fieldset4">
+        <fieldset id="fieldset4">
+            <legend>Your interests</legend><br>
+            <label>Sports </label><input type="checkbox" name="Sports" id="Sports">
+            <label>Science </label><input type="checkbox" name="Medecine" id="Medecine">
+            <label>Arts </label><input type="checkbox" name="Mathematiques" id="Mathematiques"><br><br>
+            <label>Other interets: </label> <textarea name="interests" rows="5" cols="50"></textarea><br>
+        </fieldset>
+    </div>
+    <div id="Fieldset5">
+    <fieldset id="fieldset5">
+        <legend>Why do you want tp join me?</legend><br>
+        <textarea name="join_reason" rows="5" cols="50" required></textarea><br>
+      </fieldset>
+    </div>
+      <div id="Fieldset6">
+     <fieldset id="fieldset6">
+        <legend>What do you think of DrOrlow: </legend>
+            <input type="radio" name="r1" id="t1" required><label >He is cute </label><br>
+            <input type="radio" name="r1" id="t2" required><label >He is so cute</label><br>
+            <input type="radio" name="r1" id="t3" required><label >He is so so cute</label><br>
+     </fieldset>
+    </div>
+    <div id="subset">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+    </fieldset>
+        </form>
+       </section>
+       <div class="bubble">
+        <img src="bubble0.png">
+        <img src="bubble0.png">
+        <img src="bubble0.png">
+        <img src="bubble0.png">
+        <img src="bubble0.png">
+        <img src="bubble0.png">
+       </div>
+       <footer>
+        <a href="Home.html" ><h2>Home</h2></a>
+        <a href="About me.html" ><h2>About me</h2></a>
+        <a href="Policy.html" ><h2>Policy</h2></a>
+       </footer>
+</body>
+</html>
