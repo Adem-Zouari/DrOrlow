@@ -19,6 +19,11 @@ const pool = mysql.createPool(dbConfig);
 // Middleware for parsing application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.json("This is the health check");
+});
+
 // Route to handle form submission
 app.post('/submit', (req, res) => {
   const { name, surname, gender, id, psw, email, pemail, birthday } = req.body;
