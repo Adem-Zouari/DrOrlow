@@ -57,7 +57,7 @@ app.post('/submit', (req, res) => {
           console.error('Error inserting data into database:', insertError);
           res.status(500).send('Internal Server Error');
         } else {
-          res.status(200).send('Data inserted successfully!');
+          res.redirect('/Home.html');
         }
       });
     }
