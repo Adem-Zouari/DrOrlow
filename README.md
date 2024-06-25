@@ -6,6 +6,7 @@ DrOrlow is a website designed to uplift the spirits of people feeling sadness or
 ### User Experience
 
 -A welcoming and calming design aimed at providing a soothing experience.
+
 -Easy navigation to access different sections of the website.
 ### Content and Resources
 
