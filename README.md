@@ -21,4 +21,5 @@ DrOrlow is a website designed to uplift the spirits of people feeling sadness or
 ### Development Environment
 
 -Use a web development stack such as HTML, CSS, JavaScript for the front end, and a backend framework like Node.js.
+
 -Set up a database to store user data securely.
