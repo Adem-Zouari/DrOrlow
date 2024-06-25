@@ -7,9 +7,9 @@ const port = 3000;
 
 // Database configuration
 const dbConfig = {
-  host: 'projectdb.cryby2rgpj6y.us-east-1.rds.amazonaws.com',
-  user: 'ProjectDB',
-  password: 'ProjectDB',
+  host: 'localhost',
+  user: 'root',
+  password: 'root',
   database: 'DrOrlowDB'
 };
 
