@@ -10,12 +10,12 @@ DrOrlow is a website designed to uplift the spirits of people feeling sadness or
 -Easy navigation to access different sections of the website.
 ### Content and Resources
 
-#### *Positive Affirmations
--A collection of positive affirmations to boost morale.
-#### *Games
--A game to have fun.
-#### *A Forum
--A forum where you enter your data to join Dr Orlow in helping people.
+#### -Positive Affirmations
+A collection of positive affirmations to boost morale.
+#### -Games
+A game to have fun.
+#### -A Forum
+A forum where you enter your data to join Dr Orlow in helping people.
 
 ## Deployment
 ### Development Environment
